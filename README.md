@@ -1,5 +1,5 @@
 
-# 🛠️ Project Structure & Component Design Guide
+# 🛠️ Gentle Park Project Structure & Component Design Guide
 
 This guide outlines conventions and best practices for building scalable, maintainable components and organizing a Next.js (App Router) project using TypeScript.
 
@@ -21,6 +21,11 @@ This guide outlines conventions and best practices for building scalable, mainta
   useAuth.ts
   useUser.ts
   useDebounce.ts
+
+/providers                      # State managements lib or Other providers
+  store.ts
+  RTQQueryProvider.ts
+  ThemeProvider.ts
 
 /lib                        # Shared libraries/utilities (with external dependencies)
   auth.ts                   # E.g., token parsing
@@ -114,7 +119,12 @@ This guide outlines conventions and best practices for building scalable, mainta
     
     ```
     
-
+----------
+## Tools Used
+- React Hook Form (For Form and Inputs), [Lib Link](https://www.npmjs.com/package/react-hook-form)
+- RTQ Query (For fetching and mutation), [Lib Link](https://redux-toolkit.js.org/rtk-query/overview)
+- Redux (For state Management) [Lib link](https://react-redux.js.org/introduction/getting-started)
+- Axios (For data fetching) [Lib Link](https://www.npmjs.com/package/axios)
 ----------
 
 ## ❗ Error Handling
@@ -125,7 +135,7 @@ This guide outlines conventions and best practices for building scalable, mainta
     
 
 **Reference:**  
-📹 [Error Handling in React (Complete Tutorial)](https://www.youtube.com/watch?v=0E_3Y4t9hBs) _(Replace with actual video link if embedding)_
+📹 [Error Handling in React (Complete Tutorial)](https://www.youtube.com/watch?v=OQQAv8t3bfc)
 
 ----------
 
