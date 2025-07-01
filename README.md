@@ -1,5 +1,5 @@
 
-# 🛠️ Gentle Park Project Structure & Component Design Guide
+# 🛠️ Project Structure & Component Design Guide
 
 This guide outlines conventions and best practices for building scalable, maintainable components and organizing a Next.js (App Router) project using TypeScript.
 
